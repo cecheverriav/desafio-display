@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Ejercicio 3</title>
+    <style media="screen" type="text/css">
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+
+        .flag {
+            height: 300px;
+            width: 500px;
+            border: 1px solid lightgray;
+            margin: 20px;
+        }
+
+        .flag__spain--red {
+            background-color: red;
+            height: 30%;
+        }
+        .flag__spain--yellow {
+            background-color: yellow;
+            height: 40%;
+        }
+
+        .flag__dinamarca {
+            background-color: red;
+        }
+
+        .flag__dinamarca--horizontal {
+            background-color: white;
+            width: 100%;
+            height: 15%;
+            position: relative;
+            top: 40%;
+        }
+
+        .flag__dinamarca--vertical {
+            background-color: white;
+            height: 100%;
+            width: 10%;
+            position: relative;
+            left: 30%;
+            margin-top: -9%;
+        }
+
+        .flag__emirates {
+            background-color: red;
+        }
+        .flag__emirates--green {
+            width: 80%;
+            margin-left: 20%;
+            height: calc(100% / 3);
+            background-color: green;
+        }
+        .flag__emirates--white {
+            width: 80%;
+            margin-left: 20%;
+            height: calc(100% / 3);
+            background-color: white;
+        }
+        .flag__emirates--black {
+            width: 80%;
+            margin-left: 20%;
+            height: calc(100% / 3);
+            background-color: black;
+        }
+
+        .flag__japan {
+            background-color: white;
+            display: flex;
+            align-content: center;
+            justify-content: center;
+            align-items: center;
+        }
+        .flag__japan--circle {
+            background-color: red;
+            border-radius: 50%;
+            width: 30%;
+            height: 45%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="flag flag__spain">
+        <div class="flag__spain--red"></div>
+        <div class="flag__spain--yellow"></div>
+        <div class="flag__spain--red"></div>
+    </div>
+    <div class="flag flag__dinamarca">
+        <div class="flag__dinamarca--horizontal"></div>
+        <div class="flag__dinamarca--vertical"></div>
+    </div>
+    <div class="flag flag__emirates">
+        <div class="flag__emirates--green"></div>
+        <div class="flag__emirates--white"></div>
+        <div class="flag__emirates--black"></div>
+    </div>
+    <div class="flag flag__japan">
+        <div class="flag__japan--circle">
+
+        </div>
+    </div>
+</body>
+
+</html>
